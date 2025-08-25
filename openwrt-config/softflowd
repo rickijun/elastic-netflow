@@ -1,0 +1,20 @@
+## /etc/config/softflowd
+
+config softflowd
+	option enabled        	'1'
+	option interface      	'br-lan'
+	option pcap_file      	''
+	option timeout		'tcp=30'
+	option timeout		'udp=10'
+	option timeout		'icmp=10'
+	option timeout		'general=15'
+	option timeout		'maxlife=60'
+	option max_flows      	'8192'
+	option host_port      	'{logstash-ip}:2055'
+	option pid_file       	'/var/run/softflowd.pid'
+	option control_socket 	'/var/run/softflowd.ctl'
+	option export_version 	'9'
+	option hoplimit      	''
+	option tracking_level 	'full'
+	option track_ipv6    	'0'
+	option sampling_rate    '10'
