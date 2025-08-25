@@ -1,0 +1,7 @@
+*.log
+*.tmp
+*.swp
+*.bak
+*.retry
+*.DS_Store
+es-data/*

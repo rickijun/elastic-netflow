@@ -1,0 +1,99 @@
+# Web / General
+"tcp/80":    "HTTP"
+"tcp/443":   "HTTPS"
+"udp/443":   "QUIC (HTTP/3)"
+"tcp/8080":  "HTTP-Alt"
+"tcp/8443":  "HTTPS-Alt"
+"tcp/3128":  "HTTP-Proxy"
+"tcp/8081":  "Web-Services"
+"tcp/8888":  "Web-Services"
+
+# Email
+"tcp/25":    "SMTP"
+"tcp/465":   "SMTPS"
+"tcp/587":   "SMTP-Submission"
+"tcp/110":   "POP3"
+"tcp/995":   "POP3S"
+"tcp/143":   "IMAP"
+"tcp/993":   "IMAPS"
+
+# Infrastructure
+"tcp/22":    "SSH"
+"tcp/23":    "Telnet"
+"udp/53":    "DNS"
+"tcp/53":    "DNS-TCP"
+"udp/123":   "NTP"
+"udp/161":   "SNMP"
+"udp/162":   "SNMP-Trap"
+"tcp/389":   "LDAP"
+"tcp/636":   "LDAPS"
+"tcp/88":    "Kerberos"
+"udp/88":    "Kerberos"
+"tcp/445":   "SMB"
+"tcp/137":   "NetBIOS-NS"
+"udp/137":   "NetBIOS-NS"
+"udp/138":   "NetBIOS-DGM"
+"tcp/139":   "NetBIOS-SSN"
+
+# Databases
+"tcp/1433":  "MSSQL"
+"tcp/1521":  "Oracle"
+"tcp/3306":  "MySQL"
+"tcp/5432":  "PostgreSQL"
+"tcp/27017": "MongoDB"
+"tcp/6379":  "Redis"
+
+# Remote Access
+"tcp/3389":  "RDP"
+"tcp/5900":  "VNC"
+"tcp/5985":  "WinRM-HTTP"
+"tcp/5986":  "WinRM-HTTPS"
+
+# VPN / Security
+"udp/500":   "IKE"
+"udp/4500":  "IPSec-NAT-T"
+"udp/1701":  "L2TP"
+"tcp/1723":  "PPTP"
+"udp/1194":  "OpenVPN"
+"udp/51820": "WireGuard"
+
+# Gaming
+"udp/27015": "Steam"
+"udp/27036": "Steam-Voice"
+"udp/3074":  "Xbox-Live"
+"udp/3478":  "PSN/STUN"
+"udp/3479":  "PSN"
+"udp/3658":  "PSN-Voice"
+"tcp/1935":  "RTMP (Twitch/Streaming)"
+"tcp/5223":  "PSN-Alt"
+
+# Streaming & Media
+"tcp/554":   "RTSP"
+"tcp/1755":  "MMS (legacy)"
+"tcp/1935":  "RTMP"
+"tcp/8000":  "Shoutcast"
+"tcp/8001":  "Icecast"
+"udp/19302": "Google-STUN (WebRTC)"
+"udp/3478":  "STUN/TURN"
+"tcp/5349":  "STUN/TURN-TLS"
+
+# Messaging & VoIP
+"tcp/5222":  "XMPP"
+"tcp/5228":  "Google-Push"
+"tcp/5229":  "Google-Push"
+"tcp/5230":  "Google-Push"
+"udp/5060":  "SIP"
+"tcp/5060":  "SIP"
+"tcp/5061":  "SIPS"
+"udp/16384": "RTP-Start"
+"udp/32767": "RTP-End"
+
+# Music
+"tcp/4070":  "Spotify"
+"tcp/57621": "Spotify-P2P"
+
+# Cloud / Google
+"udp/19302": "Google-WebRTC"
+"tcp/5228":  "Google-FCM"
+
+

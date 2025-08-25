@@ -1,0 +1,19 @@
+input {
+  udp {
+    port => 2055
+    codec => netflow {
+      versions => [5,9,10]
+    }
+    type => netflow
+  }
+}
+
+output {
+  elasticsearch {
+    hosts => ["http://elasticsearch:9200"]
+    index => "netflow-%{+YYYY.MM.dd}"
+    user => "elastic"
+    password => "elastic-password"
+  }
+}
+
